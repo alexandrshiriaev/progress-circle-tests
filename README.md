@@ -2,6 +2,26 @@
 
 > Testing progress-circle demo with Playwright
 
+### How to run
+
+1. Clone repository
+```shell
+git clone https://github.com/alexandrshiriaev/progress-circle-tests.git
+```
+
+2. Open directory and install dependencies
+```shell
+cd progress-circle-tests
+npm install
+```
+
+3. Run tests and watch report
+```shell
+npx playwright test
+npx playwright show-report
+```
+
+### Scenarious to be tested
 File `main.spec.ts` describes the following scenarious for testing:
 
 1. **The progress circle and control inputs are visible on the page:**
